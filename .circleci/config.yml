@@ -10,7 +10,7 @@ jobs:
     # See: https://circleci.com/docs/configuration-reference/#executor-job
     docker:
       - image: cimg/base:stable
-    - parallelism: 4
+    parallelism: 4
     # Add steps to the job
     # See: https://circleci.com/docs/configuration-reference/#steps
     steps:
